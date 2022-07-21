@@ -100,6 +100,9 @@ main(int argc, char **argv)
 			else if (!strcmp(argv[i], "--command") || !strcmp(argv[i], "-c")) {
 				awaiting_cmd = true;
 			}
+			else {
+				fprintf(stderr, "invalid option: '%s'\n", argv[i]);
+			}
 			continue;
 		}
 
