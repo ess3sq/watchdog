@@ -26,6 +26,3 @@ or clean install:
 ```
 $ sudo make clean install
 ```
-
-## Licensing
-Any files in this repository are released in the public domain. No warranty of any form is given, express or implied.
